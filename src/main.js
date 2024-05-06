@@ -1,4 +1,5 @@
-import '@/components/molecules/TopBar/TopBar.css'
+import '@/components/molecules/TopBar/TopBar.css';
+import '@/assets/style/style.css';
 
 import { createApp } from 'vue'
 import App from './App.vue'
