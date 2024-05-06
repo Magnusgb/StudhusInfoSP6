@@ -1,3 +1,6 @@
+import '@/components/molecules/TopBar/TopBar.css';
+import '@/assets/style/style.css';
+
 import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
