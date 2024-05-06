@@ -14,3 +14,98 @@
   </div>
 </a>
 </template>
+
+<style> 
+.default {
+ background-color: #FFF;
+ border-radius: 50%;
+}
+.logo-container {
+  display: inline-flex;
+  align-items: center; 
+  text-decoration: none;
+}
+
+.text-container {
+  display: block;
+  margin-left: 40px; 
+}
+  
+ .logo-container a {
+  color: #000;
+  text-decoration: none;
+}
+ .logo-container a:visited {
+     color: #000;
+ } 
+ 
+
+.title {
+  font-family: "Neue Montreal", Sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 30px;
+  color: #FFF;
+}
+
+.sub {
+  font-family: "Cirka", serif;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 30px; 
+  color: #FFF;
+}
+
+.logo {
+  position: relative;
+  background: #000;
+  min-width: 90px;
+  width: 90px;
+  min-height: 90px;
+  max-width: 90px;
+  height: 90px;
+  max-height: 90px;
+  border-radius: 50%; }
+  .logo svg {
+    position: absolute;
+    stroke: #000;
+    stroke-width: 0;
+    fill: transparent;
+    stroke-linecap: round;
+    stroke-linejoin: round; }
+    .logo svg circle {
+      fill: transparent; }
+    .logo svg path {
+      fill: transparent;
+      stroke: #000;
+      stroke-width: 5px;
+      stroke-dasharray: 215;
+      stroke-dashoffset: 215;
+      animation: animate-logo 5s cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite; }
+    .logo svg.live path {
+      animation-delay: 2.5s; }
+
+@keyframes animate-logo {
+  16.66%, 33% {
+    stroke-dashoffset: 0; }
+  50%, 66.66% {
+    stroke-dashoffset: 215; } }
+    
+    @media (max-width: 640px) {
+        .logo {
+              min-width: 60px;
+  width: 60px;
+  min-height: 60px;
+  max-width: 60px;
+  height: 60px;
+        }
+        
+        .title {
+  font-size: 20px;
+  line-height: 20px; }
+
+.sub {
+  font-size: 22px;
+  line-height: 20px; }
+}
+</style>
