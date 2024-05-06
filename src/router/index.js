@@ -1,4 +1,3 @@
-import LandingPage from '@/views/LandingPage.vue'
 import { createRouter, createWebHistory } from 'vue-router'
 import LandingPage from '../views/LandingPage.vue'
 
