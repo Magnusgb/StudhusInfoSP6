@@ -1,4 +1,6 @@
 import '@/components/molecules/TopBar/TopBar.css'
+import '@/components/atoms/buttons/Button.css'
+
 
 import { createApp } from 'vue'
 import App from './App.vue'
