@@ -1,5 +1,9 @@
 {
   "projects": {
-    "default": "studhusinfosp6"
-  }
+    "default": "studhus-c0295",
+    "studhus": "studhus-c0295"
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
 }

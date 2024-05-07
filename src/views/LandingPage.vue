@@ -1,6 +1,6 @@
 <script setup>
 import AtomBackground from '@/components/atoms/AtomBackground.vue';
-import TopBar from '@/components/molecules/TopBar/TopBar.vue';
+import TopBar from '@/components/Organisms/TopBar/TopBar.vue';
 import HeroBanner from '@/components/organisms/HeroBanner.vue';
 
 </script>

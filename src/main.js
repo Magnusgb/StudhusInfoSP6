@@ -1,4 +1,4 @@
-import '@/components/atoms/buttons/Button.css'
+import '@/components/atoms/Buttons/Button.css'
 import '@/components/molecules/TopBar/TopBar.css';
 import '@/assets/style/style.css';
 
