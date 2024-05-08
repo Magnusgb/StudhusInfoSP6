@@ -1,5 +1,5 @@
 import '@/components/atoms/Buttons/Button.css'
-import '@/components/molecules/TopBar/TopBar.css';
+import '@/components/organisms/TopBar/TopBar.css';
 import '@/assets/style/style.css';
 
 import { createApp } from 'vue'
