@@ -8,5 +8,8 @@ import BookRoomSection from '@/components/organisms/BookRoomSection.vue';
 <template>
   <main>
     <AtomBackground />
+    <TopBar />
+    <HeroBanner />
+    <BookRoomSection />
   </main>
 </template>
