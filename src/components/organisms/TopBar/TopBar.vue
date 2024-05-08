@@ -12,3 +12,9 @@ import Flag from '@/components/atoms/Logo/Flags/Flag.vue';
     </div>
 </header>
 </template>
+
+
+<style scoped>
+@import '@/assets/style/organisms.css';
+@import '@/assets/style/molecules.css';
+</style>

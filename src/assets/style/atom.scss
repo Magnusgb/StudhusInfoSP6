@@ -1,9 +1,46 @@
-.Events {
-    display: flex;
-    flex-direction: row;
-}
+
 .EventImage {
     background-image: url('src/assets/images/content/eventbillede.jpg');
     width: 25%;
     height: 10vh; /* Adjust the height as needed */
 }
+
+// BUTTON CSS
+#roundbutton {  
+    width: 40px; 
+    height: 40px; 
+    border: none;
+    background-color: black; 
+    color: white;
+    border-radius: 50%; 
+    cursor: pointer;
+    font-size: 20px;
+    position: relative;
+  
+    .roundbuttonarrow {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+  
+  #squarebutton {
+    width: 100px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  
+    .squarebuttonleft {
+      rotate: 180deg;
+    }
+  }
+
+  // BUTTON END
