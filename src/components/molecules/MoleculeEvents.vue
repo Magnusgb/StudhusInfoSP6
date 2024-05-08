@@ -21,4 +21,5 @@ import AtomEvent from '@/components/atoms/AtomEvent.vue';
 
 <style scoped>
 @import '@/assets/style/atom.css';
+@import '@/assets/style/molecules.css';
 </style>
