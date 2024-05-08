@@ -4,6 +4,27 @@
     box-sizing: border-box;
 }
 
+@font-face {
+  font-family: NeueMontreal-Regular;
+  src: url(assets/fonts/NeueMontreal-Regular.ttf);
+}
+
+@font-face {
+  font-family: NeueMontreal-Medium;
+  src: url(assets/fonts/NeueMontreal-Regular.ttf);
+}
+
+@font-face {
+  font-family: NeueMontreal-Bold;
+  src: url(assets/fonts/NeueMontreal-Regular.ttf);
+}
+
+:root {
+  /* color-scheme: dark light; */
+  font-family: NeuMontreal-Regular, sans-serif; 
+}
+
+
 // Define variables for the screen dimensions
 $screen-width: 1080px;
 $screen-height: 1920px;
