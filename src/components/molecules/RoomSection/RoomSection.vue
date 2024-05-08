@@ -16,7 +16,7 @@
   <script setup>
   import AtomH3Title from '@/components/atoms/AtomH3Title.vue';
   import AtomParagraph from '@/components/atoms/AtomParagraph.vue';
-  import AtomRoundButtonRight from '@/components/atoms/buttons/RoundButton/AtomRoundButtonRight.vue';
+  import AtomRoundButtonRight from '@/components/atoms/Buttons/RoundButton/AtomRoundButtonRight.vue';
   
   const rooms = [
     { 
