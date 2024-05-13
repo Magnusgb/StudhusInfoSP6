@@ -11,7 +11,7 @@
 <script setup>
 import AtomH3Title from '@/components/atoms/AtomH3Title.vue';
 import AtomParagraph from '@/components/atoms/AtomParagraph.vue';
-import AtomSquareButtonLeft from '@/components/atoms/Buttons/SquareButton/AtomSquareButtonLeft.vue';
+import AtomSquareButtonLeft from '@/components/atoms/buttons/SquareButton/AtomSquareButtonLeft.vue';
 
 import { useRouter } from 'vue-router';
 

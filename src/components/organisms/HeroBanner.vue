@@ -1,12 +1,23 @@
 <template>
-  <div class="hero-banner">
-    <HeroImage :src="currentImage" :alt="imageAlt" />
-  </div>
+  <Carousel :autoplay="2000" :wrap-around="true">
+    <Slide v-for="slide in 10" :key="slide">
+      <div class="hero-banner">
+        <HeroImage :src="currentImage" :alt="imageAlt" />
+      </div>
+    </Slide>
+
+    <template #addons>
+      <Pagination />
+      <Navigation />
+    </template>
+  </Carousel>
 </template>
 
 <script setup>
 import HeroImage from '@/components/atoms/Hero/HeroImage.vue';
 import { ref, computed, onMounted } from 'vue';
+import 'vue3-carousel/dist/carousel.css'
+import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel'
 
 const images = [
   'src/assets/images/content/hero.png',

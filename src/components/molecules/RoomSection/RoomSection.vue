@@ -1,5 +1,6 @@
 <template>
-      <div v-for="(room, index) in rooms" :key="index" class="room-container">
+  <carousel ref="carousel" v-model="currentSlide" :items-to-show="1">
+      <slide v-for="(room, index) in rooms" :key="index" class="room-container">
             <img :src="room.imageSrc" :alt="room.title">
         <div class="room-text">
             <AtomH3Title class="section-h3title-lokale">
@@ -9,16 +10,28 @@
             <AtomH3Title>{{ room.time }}</AtomH3Title>
             <AtomParagraph>{{ room.description }}</AtomParagraph>
         </div>
-        <AtomRoundButtonRight/>
-    </div>
+      </slide>
+      <template #addons>
+      <Navigation />
+    </template>
+  </carousel>
+  
   </template>
   
   <script setup>
   import AtomH3Title from '@/components/atoms/AtomH3Title.vue';
   import AtomParagraph from '@/components/atoms/AtomParagraph.vue';
-  import AtomRoundButtonRight from '@/components/atoms/Buttons/RoundButton/AtomRoundButtonRight.vue';
-  
+  import AtomRoundButtonRight from '@/components/atoms/buttons/RoundButton/AtomRoundButtonRight.vue';
+  import 'vue3-carousel/dist/carousel.css'
+  import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel'
+
   const rooms = [
+    { 
+      title: 'RESEVERET TIL EVENT', 
+      time: 'IDAG KL. 20.00 - 23.00', 
+      description: 'Bemærk: Lokalet kan frit benyttes uden for det bookede tidsrum. Spørg i baren ved spørgsmål til lokalebooking.',
+      imageSrc: 'src/assets/images/content/hero.png'
+    },
     { 
       title: 'RESEVERET TIL EVENT', 
       time: 'IDAG KL. 20.00 - 23.00', 
@@ -55,5 +68,11 @@ img {
     height: 100%;
     object-fit: cover;
 }
+
+
+.carousel {
+  text-align: left;
+}
+
   </style>
   
