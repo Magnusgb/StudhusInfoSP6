@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container">
     <MoleculeEvents
       v-for="month in months"
       :key="month.title"
@@ -10,10 +10,7 @@
 </template>
 
 <script setup>
-import AtomSectionTitle from '@/components/atoms/AtomSectionTitle.vue';
 import MoleculeEvents from '@/components/molecules/MoleculeEvents.vue';
-import AtomSquareButtonRight from '@/components/atoms/buttons/SquareButton/AtomSquareButtonRight.vue';
-
 import { useRouter } from 'vue-router';
 import { ref } from 'vue';
 
@@ -46,8 +43,8 @@ const months = ref([
 </script>
 
 <style>
-div {
-  overflow-y: auto; /* or overflow: auto; */
+.container {
+  max-height: calc(100vh - 100px); /* Adjust as needed */
+  overflow-y: auto;
 }
-
 </style>

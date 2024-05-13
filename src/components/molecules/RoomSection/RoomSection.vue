@@ -74,5 +74,9 @@ img {
   text-align: left;
 }
 
+.carousel__next {
+  background:RED;
+}
+
   </style>
   
