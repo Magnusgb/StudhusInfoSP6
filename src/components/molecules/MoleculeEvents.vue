@@ -16,7 +16,7 @@
 <script setup>
 import AtomEvent from '@/components/atoms/AtomEvent.vue';
 import AtomSectionTitle from '@/components/atoms/AtomSectionTitle.vue';
-import { ref, computed, defineProps, onMounted } from 'vue';
+import { ref, computed, onMounted } from 'vue';
 
 const props = defineProps({
   limit: {
