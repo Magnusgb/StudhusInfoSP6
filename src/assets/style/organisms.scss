@@ -17,9 +17,11 @@ header {
 
 // Event Section 
 .modal-event {
+   position: fixed;
    display: flex;
    justify-content: center;
-   align-items: center;
+   top: 15%;
+
 }
 .event-section {
    display: grid;
