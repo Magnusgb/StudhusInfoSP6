@@ -21,7 +21,18 @@ header {
    display: flex;
    justify-content: center;
    top: 15%;
-
+}
+.modal-overlay {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(255, 255, 255, 0.5);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   z-index: 100;
 }
 .event-section {
    display: grid;
@@ -48,4 +59,14 @@ header {
 .about-event {
    grid-column: 2 / 3; 
    grid-row: 3 / 4; 
+}
+
+#event-section-img {
+   position: relative;
+
+.close-button{
+   position: absolute;
+   top: 0;
+   right: 0;
+}
 }

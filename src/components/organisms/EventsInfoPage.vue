@@ -22,19 +22,5 @@ import AboutEvent from '@/components/molecules/AboutEvent.vue';
 import DateEvent from '@/components/molecules/DateEvent.vue';
 import InfoEvent from '@/components/molecules/InfoEvent.vue';
 import qrcode from '@/components/molecules/qrcode.vue';
+import AtomRoundButtonX from '@/components/atoms/buttons/RoundButton/AtomRoundButtonX.vue';
 </script>
-
-<style scoped>
-.modal-overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(255, 255, 255, 0.5);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 100;
-}
-</style>

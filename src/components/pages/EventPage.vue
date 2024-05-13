@@ -3,7 +3,7 @@ import { ref } from 'vue';
 import BackToFP from '@/components/molecules/BackToFP.vue';
 import OrganismEventsPage from '@/components/organisms/OrganismEventsPage.vue';
 import EventInfoPage from '@/components/organisms/EventsInfoPage.vue';
-import AtomSquareButtonRight from '@/components/atoms/buttons/SquareButton/AtomSquareButtonRight.vue';
+import AtomRoundButtonX from '@/components/atoms/buttons/RoundButton/AtomRoundButtonX.vue';
 
 const isEventInfoVisible = ref(false);
 
@@ -15,9 +15,8 @@ const toggleModal = () => {
 <template>
   <main>
     <BackToFP />
-    <OrganismEventsPage />
     <EventInfoPage v-show="isEventInfoVisible" />
-    <AtomSquareButtonRight @click="toggleModal" />
+    <AtomRoundButtonX @click="toggleModal" />
   </main>
 </template>
 
