@@ -28,25 +28,21 @@ header {
    gap: 20px;
    width: 80%;
 }
-
 .date-event {
    grid-column: 1 / -1; 
    width: 100%; 
 }
-
 #event-section-img {
    grid-column: 1 / -1; 
    width: 100%;
    height: auto;
 }
-
 .info-section {
    grid-column: 1 / 2; 
    grid-row: 3 / 4; 
    display: grid;
    gap: 20px;
 }
-
 .about-event {
    grid-column: 2 / 3; 
    grid-row: 3 / 4; 
