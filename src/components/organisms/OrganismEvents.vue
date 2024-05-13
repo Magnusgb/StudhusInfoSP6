@@ -7,7 +7,7 @@
 <script setup>
 import AtomSectionTitle from '@/components/atoms/AtomSectionTitle.vue';
 import MoleculeEvents from '@/components/molecules/MoleculeEvents.vue';
-import AtomSquareButtonRight from '@/components/atoms/Buttons/SquareButton/AtomSquareButtonRight.vue';
+import AtomSquareButtonRight from '@/components/atoms/buttons/SquareButton/AtomSquareButtonRight.vue';
 
 import { useRouter } from 'vue-router';
 
