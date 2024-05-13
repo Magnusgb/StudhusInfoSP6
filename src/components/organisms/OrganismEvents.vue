@@ -1,11 +1,11 @@
 <template>
-    <AtomSectionTitle title='KOMMENDE EVENTS'/>
-    <MoleculeEvents />
-    <AtomSquareButtonRight buttonTitle='SE FLERE' @click="navigateToEvents"/>
+  <div>
+  <MoleculeEvents title="KOMMENDE EVENTS" :latest="true" :limit="3" />
+  <AtomSquareButtonRight buttonTitle='SE FLERE' @click="navigateToEvents"/>
+</div>
 </template>
 
 <script setup>
-import AtomSectionTitle from '@/components/atoms/AtomSectionTitle.vue';
 import MoleculeEvents from '@/components/molecules/MoleculeEvents.vue';
 import AtomSquareButtonRight from '@/components/atoms/buttons/SquareButton/AtomSquareButtonRight.vue';
 
@@ -14,12 +14,6 @@ import { useRouter } from 'vue-router';
 const router = useRouter();
 
 const navigateToEvents = () => {
-  // Use the router instance to navigate to the "/events" route
   router.push('/events');
 };
-
-// Expose the navigateToEvents function to the template
-defineExpose({
-  navigateToEvents
-});
 </script>
