@@ -1,7 +1,6 @@
 {
   "projects": {
-    "default": "studhus-c0295",
-    "studhus": "studhus-c0295"
+    "default": "studhus-c0295"
   },
   "targets": {},
   "etags": {},

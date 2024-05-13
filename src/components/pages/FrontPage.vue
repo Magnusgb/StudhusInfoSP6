@@ -1,6 +1,6 @@
 <script setup>
 import AtomBackground from '@/components/atoms/AtomBackground.vue';
-import TopBar from '@/components/organisms/TopBar/TopBar.vue';
+import TopBar from '@/components/organisms/TopBar.vue';
 import HeroBanner from '@/components/organisms/HeroBanner.vue';
 import BookRoomSection from '@/components/organisms/BookRoomSection.vue';
 import EventsToday from '@/components/organisms/EventsToday.vue';

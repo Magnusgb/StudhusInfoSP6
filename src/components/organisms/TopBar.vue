@@ -7,8 +7,8 @@ import Flag from '@/components/atoms/Logo/Flags/Flag.vue';
 <header>
   <AtomLogo />
     <div class="flags">
-      <Flag src="/src/assets/images/icons/dk.svg" alt="Danish Flag" />
-      <Flag src="/src/assets/images/icons/en.svg" alt="English Flag" />
+      <Flag src="/src/assets/images/content/dkflag.svg" alt="Danish Flag" />
+      <Flag src="/src/assets/images/content/en.svg" alt="English Flag" />
     </div>
 </header>
 </template>
