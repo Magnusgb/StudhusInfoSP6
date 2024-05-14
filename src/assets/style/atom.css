@@ -13,7 +13,6 @@
   border-radius: 50%;
   cursor: pointer;
   font-size: 20px;
-  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -40,4 +39,14 @@
 }
 #squarebutton .squarebuttonleft {
   rotate: 180deg;
+}
+
+.event-pic {
+  position: relative;
+}
+
+.x-button {
+  position: absolute;
+  top: -3%;
+  right: -2%;
 }/*# sourceMappingURL=atom.css.map */

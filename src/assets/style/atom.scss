@@ -15,7 +15,6 @@
     border-radius: 50%; 
     cursor: pointer;
     font-size: 20px;
-    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,4 +46,14 @@
   }
   // BUTTON END
 
+  // Event Billede + knap
+  .event-pic {
+    position: relative;
+}
+
+.x-button {
+    position: absolute;
+    top: -3%;
+    right: -2%;
+}
   

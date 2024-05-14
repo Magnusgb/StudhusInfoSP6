@@ -2,7 +2,7 @@
     <div class="modal-overlay">
 <div class="modal-event">
 <div class="event-section">
-<img id="event-section-img" src="@/assets/images/content/event1.jpg" alt="Event" />
+    <AtomEventsBanner id="event-section-img"/>
     <div class="date-event">
         <DateEvent/>
     </div>
@@ -22,5 +22,5 @@ import AboutEvent from '@/components/molecules/AboutEvent.vue';
 import DateEvent from '@/components/molecules/DateEvent.vue';
 import InfoEvent from '@/components/molecules/InfoEvent.vue';
 import qrcode from '@/components/molecules/qrcode.vue';
-import AtomRoundButtonX from '@/components/atoms/buttons/RoundButton/AtomRoundButtonX.vue';
+import AtomEventsBanner from '@/components/atoms/AtomEventsBanner.vue';
 </script>

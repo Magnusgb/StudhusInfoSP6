@@ -16,7 +16,7 @@ const toggleModal = () => {
   <main>
     <BackToFP />
     <EventInfoPage v-show="isEventInfoVisible" />
-    <AtomRoundButtonX @click="toggleModal" />
+    <AtomRoundButtonX @click="toggleModal" /> 
   </main>
 </template>
 
